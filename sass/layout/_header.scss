@@ -1,0 +1,23 @@
+.logotipo{
+    width: 6.5rem;
+}
+.header-background {
+  background-image: url(../img/inicioFondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+  position: relative;
+}
+.header-contenedor-inferior {
+  width: 60%;
+  margin: 0 auto;
+}
+.header-contenedor-inferior button {
+  background-color: rgba(155, 123, 123, 0.831);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: lch(100% 0.01 296.81);
+  font-weight: 600;
+  text-shadow: 1px 2px 4px #191818;
+}

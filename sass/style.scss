@@ -1,0 +1,8 @@
+// Tipografia 
+*{
+    font-family: "Plus Jakarta Sans", sans-serif !important 
+}
+@import "../utilities/extends";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";

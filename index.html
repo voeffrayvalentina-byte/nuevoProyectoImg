@@ -1,11 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio | img</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header-background">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary p-3 position-fixed top-0 w-100"
+      >
+        <div class="container-fluid">
+          <img class="logotipo" src="./img/logoImg.png" alt="Logo del local" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/preguntas.html">Preguntas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section
+        class="header-contenedor-inferior d-flex flex-column justify-content-center align-items-center h-100"
+      >
+        <h1 class="text-black index-h1 text-center">3 CUOTAS SIN INTERES</h1>
+        <p class="text-black text-center">
+          Aprovecha con tu tarjeta de credito 3 cuotas sin intereses o 20% de
+          descuento en EFECTIVO.
+        </p>
+        <div class="d-flex flex-column gap-1">
+          <button>NEW COLECCION</button>
+          <button>SALE</button>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <h2 class="text-center p-1">PRENDAS SELECCIONADAS EN SALE</h2>
+
+      <div class="d-flex justify-content-center gap-3 flex-wrap p-1">
+        <section
+          class="card-algoritmos rounded-5 d-flex flex-column justify-content-center"
+        >
+          <h3 class="text-center">Sweaters valentina</h3>
+          <p class="text-center">
+            Descubrí el sweater que combina elegancia y confort. Suave, versátil
+            y con el diseño que amás, ahora a mitad de precio.
+          </p>
+          <p class="car-algoritmos-precio text-center">
+            <span>100 USD</span> 50USD
+          </p>
+          <button>Comprar</button>
+        </section>
+
+        <section
+          class="card-algoritmos rounded-5 d-flex flex-column justify-content-center"
+        >
+          <h3 class="text-center">Jeans Isostasia</h3>
+          <p class="text-center">
+            Jeans Isostasia: el clásico que nunca falla. Corte perfecto, cómodos
+            y con estilo atemporal. Desde el talle 34 al 44.
+          </p>
+          <p class="car-algoritmos-precio text-center">
+            <span>180 USD</span> 100USD
+          </p>
+          <button>Comprar</button>
+        </section>
+
+        <section
+          class="card-algoritmos rounded-5 d-flex flex-column justify-content-center"
+        >
+          <h3 class="text-center">Camisas Seansone</h3>
+          <p class="text-center">
+            Elegancia y comodidad para todos los talles: camisas Season pensadas
+            para resaltar tu estilo con libertad y confianza, 100% algodon.
+          </p>
+          <p class="car-algoritmos-precio text-center">
+            <span>150USD</span> 100USD
+          </p>
+          <button>Comprar</button>
+        </section>
+      </div>
+    </main>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="section-title w-100 bg-custom text-black">
+            Nueva Coleccion
+          </h2>
+          <div class="underline mx-auto"></div>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-6 col-md-3">
+            <div class="card border-0 text-center">
+              <img
+                src="./img/bluzaCropped.png"
+                class="card-img-top"
+                alt="bluza lino"
+              />
+              <div class="card-body py-2">
+                <p class="mb-1 text-muted">Bluza Popover</p>
+                <p class="mb-0 price text-dark fw-bold text-sombra">120USD</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="card border-0 text-center">
+              <img
+                src="./img/bluzaPopover.png"
+                class="card-img-top"
+                alt="bluza lino"
+              />
+              <div class="card-body py-2">
+                <p class="mb-1 text-muted">Bluza Cropped</p>
+                <p class="mb-0 price text-dark fw-bold">130USD</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="card border-0 text-center">
+              <img
+                src="./img/bluzaPopoverLino.avif"
+                class="card-img-top"
+                alt="camisa lino"
+              />
+              <div class="card-body py-2">
+                <p class="mb-1 text-muted">Camisa Laver</p>
+                <p class="mb-0 price text-dark fw-bold">120USD</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="card border-0 text-center">
+              <img
+                src="./img/popolinZip.avif"
+                class="card-img-top"
+                alt="bluza"
+              />
+              <div class="card-body py-2">
+                <p class="mb-1 text-muted">Popolin Zip</p>
+                <p class="mb-0 price text-dark fw-bold">150USD</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     
-</body>
+      <footer
+        style="background-color: #f8f9fa; padding: 20px 0; text-align: center">
+        <p>&copy; 2025 IMGindumentaria. Todos los derechos reservados.</p>
+      </footer>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

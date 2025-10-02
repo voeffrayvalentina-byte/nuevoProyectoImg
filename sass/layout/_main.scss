@@ -1,0 +1,30 @@
+.card-algoritmos {
+  background-color: rgb(220, 218, 218);
+  max-width: 25rem;
+  border: 1px solid #0000001f;
+  height: 20rem;
+  border-radius: 0.5rem;
+}
+.card-algoritmos-titulo {
+  font-size: 1, 5rem;
+}
+.car-algoritmos-precio {
+  color: rgba(155, 123, 123, 0.831);
+  font-weight: 600;
+}
+.car-algoritmos-precio span {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.934);
+}
+.card-algoritmos button {
+  width: 50%;
+  background-color: rgba(155, 123, 123, 0.831);
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  color: #ffffff;
+  font-weight: 600;
+  text-shadow: 1px 2px 4px #191818;
+}
+.bg-custom {
+  background-color: rgb(239, 236, 232);
+}
